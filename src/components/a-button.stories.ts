@@ -5,12 +5,12 @@ import './a-button';
 export default {
   title: 'Components/AButton',
   component: 'a-button',
-  render: (args) => html`<a-button name=${args.label}></a-button>`,
+  render: (args) => html`<a-button label=${args.label}></a-button>`,
 } as Meta;
 
 export const Default: StoryObj = {
   name: 'Default',
   args: {
-    name: 'Lit',
+    label: 'Lit',
   },
 };

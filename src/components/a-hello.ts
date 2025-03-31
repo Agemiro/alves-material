@@ -14,12 +14,12 @@ import {customElement, property} from 'lit/decorators.js';
  * @slot - This element has a slot
  * @csspart button - The button
  */
-@customElement('my-element')
-export class MyElement extends LitElement {
+@customElement('a-hello')
+export class AHello extends LitElement {
   static override styles = css`
     :host {
       display: block;
-      border: solid 5px gray;
+      border: solid 1px gray;
       padding: 16px;
       max-width: 800px;
     }
@@ -63,6 +63,6 @@ export class MyElement extends LitElement {
 
 declare global {
   interface HTMLElementTagNameMap {
-    'my-element': MyElement;
+    'a-hello': AHello;
   }
 }

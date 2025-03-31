@@ -1,4 +1,4 @@
-# LitElement TypeScript starter
+# Lit + Storybook - starter
 
 This project includes a sample component using LitElement with TypeScript.
 
@@ -135,6 +135,14 @@ To watch the site files, and re-build automatically, run:
 
 ```bash
 npm run docs:gen:watch
+```
+
+## Storybook
+
+To run the Storybook, run:
+
+```bash
+npm run storybook
 ```
 
 The site will usually be served at http://localhost:8000.

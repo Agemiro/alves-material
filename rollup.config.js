@@ -4,7 +4,7 @@ import resolve from '@rollup/plugin-node-resolve';
 import replace from '@rollup/plugin-replace';
 
 export default {
-  input: 'index.js',
+  input: 'types/index.js',
   output: {
     file: 'index.bundled.js',
     format: 'esm',

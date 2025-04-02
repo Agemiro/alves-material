@@ -1,7 +1,7 @@
 {
   "name": "alves-material",
   "private": false,
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "A simple web component",
   "main": "types/index.js",
   "module": "types/index.js",
